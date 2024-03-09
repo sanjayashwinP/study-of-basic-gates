@@ -62,18 +62,45 @@ Y= A⊕B
 5.	For different input combinations generate the timing diagram.
 
 
-**PROGRAM**
 
+**PROGRAM**
+#### DEVELOPED BY: Sanjay Ashwin P
+#### Register No: 212223040181
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+```
+module flipflops(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
+input a,b;
+output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
+and(Y1,a,b);
+or(Y2,a,b);
+not(Y3,a);
+xor(Y4,a,b);
+nand(Y5,a,b);
+nor(Y6,a,b);
+xnor(Y7,a,b);
+endmodule
+```
+
  
 **Logic symbol & Truthtable**
 
+![293541769-06e395e6-897f-4a35-8365-0eef7528457f](https://github.com/sanjayashwinP/study-of-basic-gates/assets/147473265/ec70f61f-eb9a-4862-b5c7-df1864782310)
+
+
 **RTL realization Output:** 
 
-**RTL**
+![285666191-3f368a86-fa6b-4b20-82ff-e55d0597f549](https://github.com/sanjayashwinP/study-of-basic-gates/assets/147473265/a479633b-5907-4a3a-b373-6f74d71f743e)
+
+
+
+**Timing Diagram**
+
+![285666983-a05bf0f2-577e-4e21-81d8-f83085b4b53d](https://github.com/sanjayashwinP/study-of-basic-gates/assets/147473265/4c297a27-f833-4043-a4aa-33ccc36f1e9a)
+
+
 
 **Result:**
 
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
